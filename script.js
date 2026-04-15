@@ -1,11 +1,11 @@
 /* ── GIF stages: swap these URLs with your own gifs/images if you want ── */
 const gifStages = [
-    "https://media.tenor.com/EBV7OT7ACfwAAAAj/u-u-qua-qua-u-quaa.gif",   // 0 happy / start
-    "https://media1.tenor.com/m/uDugCXK4vI4AAAAd/chiikawa-hachiware.gif", // 1 confused (No #1)
-    "https://media.tenor.com/f_rkpJbH1s8AAAAj/somsom1012.gif",            // 2 pleading (No #2)
-    "https://media.tenor.com/OGY9zdREsVAAAAAj/somsom1012.gif",            // 3 sad (No #3)
-    "https://media1.tenor.com/m/WGfra-Y_Ke0AAAAd/chiikawa-sad.gif",      // 4 sadder (No #4)
-    "https://media.tenor.com/CivArbX7NzQAAAAj/somsom1012.gif",            // 5 devastated (No #5 → runaway)
+    "https://media1.tenor.com/m/_yOoMlrZ-4MAAAAd/happy-birthday.gif",   // 0 happy / start
+    "https://media1.tenor.com/m/Vutvpp5uOiMAAAAd/wut-huh.gif", // 1 confused (No #1)
+    "https://media1.tenor.com/m/0QfKDsSs-woAAAAd/puppy-eyes-staffie.gif",            // 2 pleading (No #2)
+    "https://media1.tenor.com/m/STjTuyHNVmwAAAAC/dog-crying-meme-doggo-crys.gif",            // 3 sad (No #3)
+    "https://media1.tenor.com/m/62FcJu-Cmc4AAAAd/sad-dog.gif",      // 4 sadder (No #4)
+    "https://media1.tenor.com/m/NdyTDbwj2LIAAAAC/crying-dog.gif",            // 5 devastated (No #5 → runaway)
 ]
 
 /* ── Phrases that go inside the No button ── */
