@@ -124,4 +124,28 @@ function dodge() {
     noBtn.style.top    = `${Math.random() * maxY + margin / 2}px`
     noBtn.style.zIndex = '50'
 }
+
+/* ── Music (YouTube hidden iframe) ── */
+/* To change the song: go to YouTube, copy the video ID (the part after v= in the URL) and paste below */
+const YT_VIDEO_ID = 'pOmp_bbbeSE'
+
+function toggleMusic() {
+    const btn = document.getElementById('music-toggle')
+    if (!ytFrame) {
+        ytFrame = document.createElement('iframe')
+        ytFrame.src = `https://www.youtube.com/embed/${YT_VIDEO_ID}?autoplay=1&loop=1&playlist=${YT_VIDEO_ID}&controls=0&enablejsapi=0`
+        ytFrame.allow = 'autoplay'
+        ytFrame.style.cssText = 'position:fixed;width:1px;height:1px;opacity:0;pointer-events:none;bottom:0;right:0;border:none;'
+        document.body.appendChild(ytFrame)
+        btn.textContent = '🎵 Pause Music'
+        musicPlaying = true
+    } else if (musicPlaying) {
+        ytFrame.src = ''
+        btn.textContent = '🎵 Play Music'
+        musicPlaying = false
+    } else {
+        ytFrame.src = `https://www.youtube.com/embed/${YT_VIDEO_ID}?autoplay=1&loop=1&playlist=${YT_VIDEO_ID}&controls=0&enablejsapi=0`
+        btn.textContent = '🎵 Pause Music'
+        musicPlaying = true
+    }
 }
