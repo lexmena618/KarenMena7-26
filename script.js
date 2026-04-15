@@ -11,7 +11,7 @@ const gifStages = [
 /* ── Phrases that go inside the No button ── */
 const noPhrases = [
     "No",
-    "Are you sure baby?",
+    "Are you sure mai lob?",
     "Please go out with me baby",
     "You're going to make me cry baby",
     "Please beautiful",
@@ -127,7 +127,7 @@ function dodge() {
 
 /* ── Music (YouTube hidden iframe) ── */
 /* To change the song: go to YouTube, copy the video ID (the part after v= in the URL) and paste below */
-const YT_VIDEO_ID = 'v5Wl9_14GTY'
+const YT_VIDEO_ID = 'pOmp_bbbeSE'
 
 function toggleMusic() {
     const btn = document.getElementById('music-toggle')
